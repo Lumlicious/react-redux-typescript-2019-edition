@@ -1,0 +1,32 @@
+@import '../util/colors';
+
+.btn {
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+  height: 40px;
+  &:disabled {
+    color: $text-primary;
+    background-color: $btn-grey;
+    border-style: none;
+  }
+  &--primary {
+    @extend .btn;
+    background-color: $btn-green;
+    &:enabled:hover {
+      @extend .btn;
+      background-color: $btn-teal;
+    }
+  }
+  &--secondary {
+    @extend .btn;
+    background-color: white;
+    color: $btn-green;
+    border: solid 1px $btn-green;
+    &:enabled:hover {
+      @extend .btn--secondary;
+      color: $btn-teal;
+      border: solid 1px $btn-teal;
+    }
+  }
+}

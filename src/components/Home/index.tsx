@@ -13,7 +13,7 @@ interface DispatchProps {
 const Home = ({ toggleLogo, showLogo }: DispatchProps) => {
   return (
     <div>
-      <button className="button" onClick={toggleLogo}>
+      <button className="btn--primary" onClick={toggleLogo}>
         Toggle Logo!
       </button>
       {showLogo ? <img src={logo} /> : null}
