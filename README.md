@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# React + Redux + Typescript Setup - 2019 Edition
+
+Follow along with the companion article @ [chadlumley.com](https://www.chadlumley.com/posts/setup-react-redux-typescript-2019-edition)
+
 ## Available Scripts
 
 In the project directory, you can run:
